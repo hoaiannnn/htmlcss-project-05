@@ -936,3 +936,92 @@ button {
     font-size: 1.6rem;
     line-height: 1.66;
 }
+
+/* App */
+.app {
+    padding: 80px 0;
+}
+
+.app__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    border-radius: 24px;
+    background: #7264d6;
+}
+
+.app__info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 37%;
+}
+
+.app__label {
+    color: #fff;
+}
+
+.app__info .label::before {
+    background-color: #fff;
+}
+
+.app__heading {
+    margin-top: 12px;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.app__desc {
+    margin-top: 18px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.app__action {
+    margin-top: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.app__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    min-width: 182px;
+    width: 182px;
+}
+
+.app__decor {
+    position: absolute;
+}
+
+.app__decor--top-left {
+    top: 49px;
+    left: 112px;
+}
+
+.app__decor--bottom-left {
+    bottom: 49px;
+    left: 166px;
+}
+
+.app__decor--top-right {
+    top: 49px;
+    right: 112px;
+}
+
+.app__decor--bottom-right {
+    bottom: 49px;
+    right: 166px;
+}
