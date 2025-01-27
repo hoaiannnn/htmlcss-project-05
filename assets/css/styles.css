@@ -261,7 +261,7 @@ button {
 }
 
 .search-form__submit {
-    background-color: #7264d6;
+    background-color: var(--primary-color);
 }
 
 .hero__caption {
@@ -521,7 +521,7 @@ button {
     display: inline-block;
     width: 12px;
     height: 12px;
-    background-color: #7264d6;
+    background-color: var(--primary-color);
     border-radius: 50%;
 }
 
@@ -686,7 +686,7 @@ button {
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: #7264d6;
+    background-color: var(--primary-color);
     right: -104px;
     bottom: 222px;
 }
@@ -839,7 +839,7 @@ button {
 }
 
 .testimonial__quote--active {
-    background-color: #7264d6;
+    background-color: var(--primary-color);
     border-color: transparent;
 }
 
@@ -939,7 +939,7 @@ button {
 
 /* App */
 .app {
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .app__inner {
@@ -949,7 +949,7 @@ button {
     justify-content: center;
     padding: 100px 0;
     border-radius: 24px;
-    background: #7264d6;
+    background: var(--primary-color);
 }
 
 .app__info {
@@ -1024,4 +1024,83 @@ button {
 .app__decor--bottom-right {
     bottom: 49px;
     right: 166px;
+}
+
+/* Footer */
+.footer__info {
+    padding: 100px 0 28px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 163px;
+}
+
+.footer__heading {
+    color: #212832;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+    margin-bottom: 24px;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer__link,
+.footer__address {
+    color: #6a6e78;
+    font-size: 1.8rem;
+    line-height: 1.66;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+    opacity: 0.9;
+}
+
+.footer__address {
+    width: 371px;
+    margin-bottom: 48px;
+}
+
+.footer__form {
+    width: 403px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.footer-form__input {
+    width: 270px;
+    height: 52px;
+    border-radius: 6px;
+    border: 1px solid #8e919a;
+    margin-right: 20px;
+}
+
+.footer-form__input::placeholder {
+    color: #8e919a;
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+
+.footer-form__submit {
+    min-width: 113px;
+    width: 113px;
+}
+
+.footer__contract {
+    display: flex;
+    gap: 100px;
+}
+
+.footer__copyright {
+    margin-top: 28px;
+    background-color: var(--primary-color);
+    padding: 28px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.75;
 }
