@@ -392,12 +392,14 @@ button {
     line-height: 0;
 }
 
-.work__img-wrap::after {
+.work__img--under {
     position: absolute;
-    content: url(/assets/img/hero-img-wrap-background.png);
     bottom: 0;
     left: 0;
     z-index: -1;
+    object-fit: cover;
+    width: 470px;
+    height: 550px;
 }
 
 .work__img {
@@ -630,13 +632,15 @@ button {
     line-height: 0;
 }
 
-.feature-bottom__img-wrap::after {
+.feature__img--under {
     position: absolute;
-    content: url(/assets/img/feature-img-wrap.png);
     bottom: 0;
     left: 0;
     right: 0;
     z-index: -1;
+    width: 470px;
+    height: 432px;
+    object-fit: cover;
 }
 
 .feature-bottom__img {
