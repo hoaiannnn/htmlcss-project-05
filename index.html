@@ -23,73 +23,73 @@
         <link
             rel="apple-touch-icon"
             sizes="57x57"
-            href="./assets/favicon/apple-icon-57x57.png"
+            href="./assets/favicon//apple-icon-57x57.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="60x60"
-            href="./assets/favicon/apple-icon-60x60.png"
+            href="./assets/favicon//apple-icon-60x60.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="72x72"
-            href="./assets/favicon/apple-icon-72x72.png"
+            href="./assets/favicon//apple-icon-72x72.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="76x76"
-            href="./assets/favicon/apple-icon-76x76.png"
+            href="./assets/favicon//apple-icon-76x76.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="114x114"
-            href="./assets/favicon/apple-icon-114x114.png"
+            href="./assets/favicon//apple-icon-114x114.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="120x120"
-            href="./assets/favicon/apple-icon-120x120.png"
+            href="./assets/favicon//apple-icon-120x120.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="144x144"
-            href="./assets/favicon/apple-icon-144x144.png"
+            href="./assets/favicon//apple-icon-144x144.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="152x152"
-            href="./assets/favicon/apple-icon-152x152.png"
+            href="./assets/favicon//apple-icon-152x152.png"
         />
         <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="./assets/favicon/apple-icon-180x180.png"
+            href="./assets/favicon//apple-icon-180x180.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="192x192"
-            href="./assets/favicon/android-icon-192x192.png"
+            href="./assets/favicon//android-icon-192x192.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="./assets/favicon/favicon-32x32.png"
+            href="./assets/favicon//favicon-32x32.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="96x96"
-            href="./assets/favicon/favicon-96x96.png"
+            href="./assets/favicon//favicon-96x96.png"
         />
         <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="./assets/favicon/favicon-16x16.png"
+            href="./assets/favicon//favicon-16x16.png"
         />
-        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <link rel="manifest" href="./assets/favicon//manifest.json" />
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
@@ -118,26 +118,32 @@
                             <ul class="navbar__list">
                                 <li class="navbar-item">
                                     <a
-                                        href="#!"
+                                        href="#"
                                         class="navbar-item__link navbar-item__active"
                                     >
                                         Home
                                     </a>
                                 </li>
                                 <li class="navbar-item">
-                                    <a href="#!" class="navbar-item__link"
-                                        >Products</a
+                                    <a
+                                        href="#products"
+                                        class="navbar-item__link"
                                     >
+                                        Products
+                                    </a>
                                 </li>
                                 <li class="navbar-item">
-                                    <a href="#!" class="navbar-item__link"
-                                        >Features</a
+                                    <a
+                                        href="#feature"
+                                        class="navbar-item__link"
                                     >
+                                        Features
+                                    </a>
                                 </li>
                                 <li class="navbar-item">
-                                    <a href="#!" class="navbar-item__link"
-                                        >Blog</a
-                                    >
+                                    <a href="#blog" class="navbar-item__link">
+                                        Blog
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
@@ -165,7 +171,6 @@
                                 <span class="hero__highlight">Payment</span> For
                                 Everyone.
                             </h1>
-                            m
                             <p class="section-desc hero__desc">
                                 We bring together eveything that’s required to
                                 build websites and apps that accept payments and
@@ -279,7 +284,7 @@
             </div>
 
             <!-- How it work -->
-            <div class="work">
+            <div id="products" class="work">
                 <div class="container">
                     <div class="work__inner">
                         <!-- Work media -->
@@ -361,17 +366,12 @@
             </div>
 
             <!-- Features -->
-            <section class="feature">
+            <section class="feature" id="feature">
                 <div class="container">
                     <!-- Feature top -->
                     <div class="feature__top">
                         <!-- Content -->
-                        <section
-                            class="feature__content"
-                            data-aos="fade-right"
-                            data-aos-offset="300"
-                            data-aos-easing="ease-in-sine"
-                        >
+                        <section class="feature__content" data-aos="fade-right">
                             <div class="label">Digital Smart Wallet</div>
                             <h2 class="section-heading feature__heading">
                                 One Card For All Your Payments
@@ -393,13 +393,7 @@
                             >
                         </section>
                         <!-- Media -->
-                        <div
-                            class="feature__media"
-                            data-aos="fade-left"
-                            data-aos-anchor="#example-anchor"
-                            data-aos-offset="500"
-                            data-aos-duration="500"
-                        >
+                        <div class="feature__media" data-aos="fade-left">
                             <img
                                 src="./assets/img/feature-img.png"
                                 alt=""
@@ -732,7 +726,7 @@
             </section>
 
             <!-- Blog -->
-            <section class="blog">
+            <section class="blog" id="blog">
                 <div class="container">
                     <div class="blog__inner">
                         <div class="blog__top">
@@ -866,20 +860,20 @@
                                 with a special online bank and move faster
                             </p>
                             <div class="app__action">
-                                <button class="app__btn btn">
+                                <a href="#!" class="app__btn btn">
                                     <img
                                         class="app__btn--img"
                                         src="./assets/icons/google-play.svg"
                                         alt=""
                                     />
-                                </button>
-                                <button class="app__btn btn">
+                                </a>
+                                <a href="#!" class="app__btn btn">
                                     <img
                                         class="app__btn--img"
                                         src="./assets/icons/app-store.svg"
                                         alt=""
                                     />
-                                </button>
+                                </a>
                             </div>
                         </div>
 
@@ -984,8 +978,12 @@
                 </div>
                 <!-- Contract -->
                 <div class="footer__contract">
-                    <a href="#!" class="footer__link">email@gmail.com</a>
-                    <a href="#!" class="footer__link">(123) 456-7890</a>
+                    <a href="mailto:email@gmail.com" class="footer__link">
+                        email@gmail.com
+                    </a>
+                    <a href="tel:+1234567890" class="footer__link">
+                        (123) 456-7890
+                    </a>
                 </div>
             </div>
             <div class="footer__copyright">

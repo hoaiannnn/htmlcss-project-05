@@ -123,7 +123,7 @@ button {
 
 .header {
     padding-top: 26px;
-    padding-bottom: 26px;
+    padding-bottom: 8px;
     background-color: #fff;
 }
 
@@ -205,7 +205,7 @@ button {
 
 /* Hero */
 .hero {
-    padding: 50px 0 80px 0;
+    padding: 68px 0 80px 0;
 }
 
 .hero__inner {
@@ -447,6 +447,7 @@ button {
 }
 
 .work-card__desc {
+    margin-top: 5px;
     color: #696d76;
     font-family: "Inter", serif;
     font-size: 1.2rem;
@@ -832,7 +833,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    column-gap: 34px;
+    column-gap: 12px;
 }
 
 .testimonial__quote {
@@ -840,6 +841,12 @@ button {
     height: 6px;
     border-radius: 1px;
     border: 1px solid #9b9fab;
+}
+
+.testimonial__quote:hover {
+    background-color: var(--primary-color);
+    border-color: transparent;
+    cursor: pointer;
 }
 
 .testimonial__quote--active {
@@ -939,6 +946,11 @@ button {
     color: #696d76;
     font-size: 1.6rem;
     line-height: 1.66;
+}
+
+.blog-item__link:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
 }
 
 /* App */
